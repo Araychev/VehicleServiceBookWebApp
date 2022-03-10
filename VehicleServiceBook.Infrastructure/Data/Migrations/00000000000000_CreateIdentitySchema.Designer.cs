@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
-using VehicleServiceBookWebApp.Data;
+using VehicleServiceBook.Infrastructure.Data;
 
-namespace VehicleServiceBookWebApp.Data.Migrations
+namespace VehicleServiceBook.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VehicleServiceBook.Core.Constants;
-using VehicleServiceBookWebApp.Data;
+using VehicleServiceBook.Infrastructure.Data;
 using VehicleServiceBookWebApp.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);
