@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace VehicleServiceBookWebApp.Data.Migrations
+namespace VehicleServiceBook.Infrastructure.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
