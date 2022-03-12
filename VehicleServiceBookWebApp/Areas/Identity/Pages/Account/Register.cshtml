@@ -27,10 +27,19 @@
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
+            <div class="form-floating">
+                <div class="text-white d-flex justify-content-center">
+                    <label for="userType" class="h4 mb-2">Are you a mechanic or a owner?</label>
+                </div>
+                <select class="custom-select" name="UserType" id="userType">
+                    <option value="Owner">Owner</option>
+                    <option value="Mechanic">Mechanic</option>
+                </select>
+            </div>
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
     </div>
-    <div class="col-md-6 col-md-offset-2">
+    @*<div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
             <hr />
@@ -59,7 +68,7 @@
                 }
             }
         </section>
-    </div>
+    </div>*@
 </div>
 
 @section Scripts {
