@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleServiceBook.Core", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleServiceBook.Infrastructure", "VehicleServiceBook.Infrastructure\VehicleServiceBook.Infrastructure.csproj", "{A7B964ED-2307-4194-A7AC-CAEFFFB1BA5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceBook.Utility", "VehicleServiceBook.Utility\VehicleServiceBook.Utility.csproj", "{051DD5A5-AFE6-4315-8A8E-45DD75F14550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleServiceBook.Utility", "VehicleServiceBook.Utility\VehicleServiceBook.Utility.csproj", "{051DD5A5-AFE6-4315-8A8E-45DD75F14550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceBook.Api", "VehicleServiceBook.Api\VehicleServiceBook.Api.csproj", "{8CE65331-CF9F-4195-9B00-17D31A78DF28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{051DD5A5-AFE6-4315-8A8E-45DD75F14550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051DD5A5-AFE6-4315-8A8E-45DD75F14550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051DD5A5-AFE6-4315-8A8E-45DD75F14550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE65331-CF9F-4195-9B00-17D31A78DF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE65331-CF9F-4195-9B00-17D31A78DF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE65331-CF9F-4195-9B00-17D31A78DF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE65331-CF9F-4195-9B00-17D31A78DF28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
