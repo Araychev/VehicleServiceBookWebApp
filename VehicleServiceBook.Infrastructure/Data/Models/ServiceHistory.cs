@@ -9,6 +9,7 @@ namespace VehicleServiceBook.Infrastructure.Data.Models
         public string Id { get; set; } = Guid.NewGuid().ToString();
 
         [Required]
+        [StringLength(36)]
         public string CarId { get; set; }
 
         [ForeignKey(nameof(CarId))]

@@ -12,13 +12,17 @@ namespace VehicleServiceBook.Infrastructure.Data.Models
         [Required] 
         public string Description { get; set; }
 
+        
+        public int CarOdometer { get; set; }
+
         public DateTime DateAdded { get; set; }
 
-        public DateTime DateFixed { get; set; }
+        public DateTime? DateFixed { get; set; }
 
         public bool IsFixed { get; set; }
 
         [Required]
+        [StringLength(36)]
         public string CarId { get; set; }
 
         [ForeignKey(nameof(CarId))]
